@@ -1,0 +1,21 @@
+Learn React 
+
+ - No react a aplicacao e dividida em componentes, imagine como se fosse lego sao pecas que vc desenvolve e dps usa elas.
+ - Consegue trabalhar bem em equipe pois funciona como varios componentes
+ - Usa JSX para escrever codigo
+
+
+
+ - para comecar usamos um npm create vite@5.5.2 . (a numeracao se refere apenas a versao)
+ - SPA (single page aplication)
+ - Conteudo inserido por meio de codigo javascript
+
+
+ dia 1 - parei minuto 29 continuar amanha! 15/04
+ dia 2 - voltando dia 22/04 continuando curso 
+ dia 3 - 24/04 minuto 52
+ dia 4 - 29/04 01:00 hora
+ dia 5 - 05/05 seguindo ate 1:20
+ dia 6 - 06/06 seguindo ate 1:37
+ dia 7 - finalizacao, deu uma pausa da aula em si, mas nao deixei de progarmar pelo contrario fui fazendo sozinho
+ vale lembrar que por exemplo exemplo amentou 17 min mas o fato de estar aprendedno e que vai pausando, tentando fazer sozinho e etc...

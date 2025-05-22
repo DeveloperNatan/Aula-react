@@ -1,0 +1,13 @@
+Topicos vistos no curso
+- UseState
+- quando vc altera variavel vc precisa alterar interface, se sim. Voce precisa criar UseState
+- toda funcao que RETURN JSX é component
+-
+-
+-
+-
+-
+-
+-
+-
+
