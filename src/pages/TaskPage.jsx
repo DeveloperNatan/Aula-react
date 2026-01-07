@@ -14,8 +14,6 @@ function TaskPage() {
           <button
             className="absolute left-0"
             onClick={() => {
-              // window.history.back(); legal, mas me parece meio troll
-              //   ou criar uma funcao la em cima
               navigate("/");
             }}
           >

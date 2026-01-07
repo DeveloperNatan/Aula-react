@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-// import { v4 } from "uuid";
 import { CheckIcon, Trash, X } from "lucide-react";
 
 function CheckList({ storageKey }) {
