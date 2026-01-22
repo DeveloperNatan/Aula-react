@@ -96,7 +96,7 @@ function App() {
               <Activity />
             </h1>
             <div className="w-[85%] ">
-              <CheckList storageKey="Check_book" />
+              <CheckList storageKey="Check_activity" />
             </div>
           </div>
           <div className="flex w-full items-center bg-slate-400 border-2 border-slate-300 p-2 rounded-lg">
