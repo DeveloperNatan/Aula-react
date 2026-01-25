@@ -7,7 +7,7 @@ import { Activity, BookOpen, CodeXml, Languages } from "lucide-react";
 
 function App() {
   const [tasks, setTasks] = useState(
-    JSON.parse(localStorage.getItem("tasks")) || []
+    JSON.parse(localStorage.getItem("tasks")) || [],
   );
 
   // primeiro parametro é uma funcao e o segundo uma lista
@@ -44,19 +44,6 @@ function App() {
   return (
     <div className="flex flex-col md:flex-row w-full h-full bg-slate-500">
       {/* tasks */}
-      <div className="w-full h-full  flex justify-center p-6">
-        <div className="w-[500px] space-y-4">
-          <h1 className="text-3xl text-slate-100 font-bold text-center p-4">
-            Tasks
-          </h1>
-          <AddTasks onTaskAdd={onTaskAdd} />
-          <Tasks
-            tasks={tasks}
-            onTaskClick={onTaskClick}
-            onTaskDelete={onTaskDelete}
-          />
-        </div>
-      </div>
 
       {/* Checklist */}
       <div className="w-full h-full flex justify-center p-6 md:p-6">
@@ -107,6 +94,19 @@ function App() {
               <CheckList storageKey="Check_dumbell" />
             </div>
           </div>
+        </div>
+      </div>
+      <div className="w-full h-full  flex justify-center p-6">
+        <div className="w-[500px] space-y-4">
+          <h1 className="text-3xl text-slate-100 font-bold text-center p-4">
+            Tasks
+          </h1>
+          <AddTasks onTaskAdd={onTaskAdd} />
+          <Tasks
+            tasks={tasks}
+            onTaskClick={onTaskClick}
+            onTaskDelete={onTaskDelete}
+          />
         </div>
       </div>
     </div>
